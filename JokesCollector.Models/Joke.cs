@@ -1,14 +1,11 @@
 ﻿namespace JokesCollector.Domain;
 
-using System.Text.Json.Serialization;
-
+// remove json attributes, please, what is it you don't understand???
 public abstract class Joke
 {
-    [JsonPropertyName("id")]
-    public string Id { get; set; } = "";
+    public abstract string Id { get; set; }
 
-    [JsonPropertyName("value")]
-    public string Value { get; set; } = "";
+    public abstract string Value { get; set; }
 
     public abstract string Source { get; }
 }

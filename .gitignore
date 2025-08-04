@@ -1,0 +1,17 @@
+# Visual Studio / dotnet
+bin/
+obj/
+**/[Bb]in/
+**/[Oo]bj/
+*.user
+*.vs/
+.vscode/
+*.vs/
+*.suo
+*.userprefs
+TestResult*/
+.idea/
+*.nupkg
+*.exe
+*.dll
+*.pdb
