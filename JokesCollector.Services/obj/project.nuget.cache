@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "izGFQu7udrY=",
+  "success": true,
+  "projectFilePath": "D:\\Dev\\Source\\Repos\\JokesCollectorSolution\\JokesCollector.Services\\JokesCollector.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tomek\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.data.sqlite\\8.0.18\\microsoft.data.sqlite.8.0.18.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.18\\microsoft.data.sqlite.core.8.0.18.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.diagnostics\\8.0.0\\microsoft.extensions.diagnostics.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.http\\8.0.0\\microsoft.extensions.http.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\3.0.0\\sqlitepclraw.bundle_e_sqlite3.3.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\sqlitepclraw.config.e_sqlite3\\3.0.0\\sqlitepclraw.config.e_sqlite3.3.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\sqlitepclraw.core\\3.0.0\\sqlitepclraw.core.3.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\3.50.3\\sqlitepclraw.lib.e_sqlite3.3.50.3.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\3.0.0\\sqlitepclraw.provider.e_sqlite3.3.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

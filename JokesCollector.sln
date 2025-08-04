@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokesCollector.Functions", "Functions\JokesCollector.Functions.csproj", "{2D69EBC0-956D-470B-A407-AA555E33CA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokesCollector.ConsoleApp", "JokesCollector.ConsoleApp\JokesCollector.ConsoleApp.csproj", "{95419A3D-47CA-40A4-9B95-13C4634F5B9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokesCollector.Domain", "JokesCollector.Models\JokesCollector.Domain.csproj", "{25B436B2-ABA1-46B0-99D5-04169DBCADBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokesCollector.Data", "JokesCollector.Data\JokesCollector.Data.csproj", "{9E3CFB7C-BDEA-4CDE-BB55-48F8D6CEE690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokesCollector.Services", "JokesCollector.Services\JokesCollector.Services.csproj", "{DA9885F1-A025-4ED2-A5A2-EF0E7BE442EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokesCollector.Tests", "JokesCollector.Tests\JokesCollector.Tests.csproj", "{4A3028E6-25B2-4A6C-9B52-B75171514E76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D69EBC0-956D-470B-A407-AA555E33CA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D69EBC0-956D-470B-A407-AA555E33CA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D69EBC0-956D-470B-A407-AA555E33CA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D69EBC0-956D-470B-A407-AA555E33CA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95419A3D-47CA-40A4-9B95-13C4634F5B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95419A3D-47CA-40A4-9B95-13C4634F5B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95419A3D-47CA-40A4-9B95-13C4634F5B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95419A3D-47CA-40A4-9B95-13C4634F5B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B436B2-ABA1-46B0-99D5-04169DBCADBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B436B2-ABA1-46B0-99D5-04169DBCADBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B436B2-ABA1-46B0-99D5-04169DBCADBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B436B2-ABA1-46B0-99D5-04169DBCADBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3CFB7C-BDEA-4CDE-BB55-48F8D6CEE690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3CFB7C-BDEA-4CDE-BB55-48F8D6CEE690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3CFB7C-BDEA-4CDE-BB55-48F8D6CEE690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3CFB7C-BDEA-4CDE-BB55-48F8D6CEE690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9885F1-A025-4ED2-A5A2-EF0E7BE442EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9885F1-A025-4ED2-A5A2-EF0E7BE442EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9885F1-A025-4ED2-A5A2-EF0E7BE442EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9885F1-A025-4ED2-A5A2-EF0E7BE442EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3028E6-25B2-4A6C-9B52-B75171514E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3028E6-25B2-4A6C-9B52-B75171514E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3028E6-25B2-4A6C-9B52-B75171514E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3028E6-25B2-4A6C-9B52-B75171514E76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B451D64-71FE-47F4-9019-DD3C3590A8C1}
+	EndGlobalSection
+EndGlobal
