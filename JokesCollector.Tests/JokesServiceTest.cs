@@ -12,6 +12,7 @@ using JokesCollector.Services;
 public class JokesServiceTests
 {
     private const string ProviderName = "ChuckNorris";
+
     private readonly Mock<IJokesRepository> _repoMock;
     private readonly Mock<IJokesProvider> _providerMock;
     private readonly IJokesService _jokesService;

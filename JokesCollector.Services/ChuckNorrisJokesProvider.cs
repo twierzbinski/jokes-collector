@@ -1,37 +1,34 @@
 ﻿namespace JokesCollector.Services;
 
-using System.Text.Json;
 using JokesCollector.Domain;
+using JokesCollector.Services.Dto;
+using System.Text.Json;
 
 public class ChuckNorrisJokesProvider : IJokesProvider
 {
-    private readonly IHttpClientFactory _httpClientFactory;
+    private readonly HttpClient _httpClient;
     private readonly string _apiUrl = "https://api.chucknorris.io/jokes/random";
 
     public string Name => ChuckNorrisJoke.SourceName;
 
-    public ChuckNorrisJokesProvider(IHttpClientFactory httpClientFactory)
-    {
-        _httpClientFactory = httpClientFactory;
-    }
+    public ChuckNorrisJokesProvider(IHttpClientFactory factory)
+        => _httpClient = factory.CreateClient(Name);
 
     public async Task<IEnumerable<Joke>> GetJokesAsync(int numberOfJokesToFetch)
     {
-        var client = _httpClientFactory.CreateClient();
-        var jokes = new List<ChuckNorrisJoke>();
-
+        var results = new List<Joke>(numberOfJokesToFetch);
         for (int i = 0; i < numberOfJokesToFetch; i++)
         {
-            var response = await client.GetAsync(_apiUrl);
-            response.EnsureSuccessStatusCode();
-            var json = await response.Content.ReadAsStringAsync();
-            var joke = JsonSerializer.Deserialize<ChuckNorrisJoke>(json);
+            var dto = await JsonSerializer.DeserializeAsync<ChuckNorrisDto>(
+                await _httpClient.GetStreamAsync(_apiUrl),
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
-            if (joke is not null && joke.Value.Length <= 200)
+            results.Add(new ChuckNorrisJoke
             {
-                jokes.Add(joke);
-            }
+                Id = dto!.Id,
+                Value = dto.Value
+            });
         }
-        return jokes;
+        return results;
     }
 }
