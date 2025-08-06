@@ -2,7 +2,9 @@
 
 public class ChuckNorrisJoke : Joke
 {
-    public const string SourceName = "ChuckNorris";
+    private const string SourceName = "ChuckNorris";
+
+    public static string ProviderName => SourceName;
 
     public override string Id { get; set; } = "";
     public override string Value { get; set; } = "";

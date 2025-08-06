@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 public class ChuckNorrisJokesServiceTests
 {
-    private const string ProviderName = ChuckNorrisJoke.SourceName;
+    private string ProviderName = ChuckNorrisJoke.ProviderName;
     private readonly Mock<IJokesRepository> _repo = new();
     private readonly Mock<IJokesProvider> _prov = new();
     private readonly JokesService _service;

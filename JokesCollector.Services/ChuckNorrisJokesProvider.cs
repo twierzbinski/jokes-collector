@@ -9,7 +9,7 @@ public class ChuckNorrisJokesProvider : IJokesProvider
     private readonly HttpClient _httpClient;
     private readonly string _apiUrl = "https://api.chucknorris.io/jokes/random";
 
-    public string Name => ChuckNorrisJoke.SourceName;
+    public string Name => ChuckNorrisJoke.ProviderName;
 
     public ChuckNorrisJokesProvider(IHttpClientFactory factory)
         => _httpClient = factory.CreateClient(Name);
