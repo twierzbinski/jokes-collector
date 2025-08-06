@@ -12,5 +12,5 @@ public class ChuckNorrisDto
     public string Value { get; set; } = "";
 
     [JsonPropertyName("url")]
-    public string Url { get; set; }
+    public string Url { get; set; } = "";
 }
